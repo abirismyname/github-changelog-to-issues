@@ -18,7 +18,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: chrisreddington/rss-parser-action@main
+    - uses: chrisreddington/rss-parser@v0.0.6
       with:
         branch_prefix: 'gh-changelog'
         feed_url: 'https://github.blog/changelog/feed/'
