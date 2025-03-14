@@ -23,3 +23,4 @@ jobs:
         branch_prefix: 'gh-changelog'
         feed_url: 'https://github.blog/changelog/feed/'
         script_output: 'issue'
+        github_token: ${{ secrets.IGNORE_ME }}
