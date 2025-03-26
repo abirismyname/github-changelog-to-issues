@@ -23,5 +23,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
 
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile TypeScript
+        run: npx tsc
+
       - name: Run GitHub Changelog Action
         uses: ./
