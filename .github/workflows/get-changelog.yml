@@ -17,8 +17,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Set up Node.js
         uses: actions/setup-node@v2
 
       - name: Run GitHub Changelog Action
-        uses: ./
+        uses: ./action.yaml
