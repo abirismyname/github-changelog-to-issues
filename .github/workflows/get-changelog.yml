@@ -24,4 +24,4 @@ jobs:
         uses: actions/setup-node@v2
 
       - name: Run GitHub Changelog Action
-        uses: ./action.yaml
+        uses: ./
