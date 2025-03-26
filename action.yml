@@ -1,0 +1,10 @@
+name: 'GitHub Changelog Action'
+description: 'Pulls down the GitHub Changelog RSS feed and generates a report with new posts.'
+
+inputs: {}
+
+outputs: {}
+
+runs:
+  using: 'node12'
+  main: 'index.ts'
